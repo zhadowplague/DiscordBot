@@ -1,5 +1,8 @@
 # DiscordBot
+A modded version of flapjacks sfx cog for redbot v2:
+https://github.com/flapjax/FlapJack-Cogs/blob/master/sfx/sfx.py
 
+Note to self:
 # To install run the following in a powershell with admin
 Set-ExecutionPolicy Bypass -Scope Process -Force
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
