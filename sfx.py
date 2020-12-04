@@ -154,7 +154,7 @@ class Sfx(commands.Cog):
 
             # This function can block itself from here on out. Our only job
             # is to play the sound and watch for Audio stealing back control
-            await audio_cog._manager.shutdown()
+            await audio_cog.player_manager.shutdown()
             cid = next_sound['cid']
             channel = self.bot.get_channel(cid)
             path = next_sound['path']
